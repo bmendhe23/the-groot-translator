@@ -1,5 +1,89 @@
-#txt-output {
-    border: 1px solid black;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+:root {
+    --primary-color: #6A513B;
+    --secondary-color: #9C9078
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    position: relative;
+    background-color: var(--secondary-color);
+}
+
+/* banner groot */
+#banner-groot img{
+    width: 150px;
+    position: absolute;
+    margin: 3rem 5rem;
+}
+
+
+/* header */
+.head {
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.head h1{
+    color: white;
+    margin: 0px;
+    padding: 3.2rem;
+}
+
+/* text boxes container */
+.container {
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.container textarea {
+    display: block;
+    margin: auto;
+    width: 80%;
     height: 100px;
+    padding: 1rem;
+}
+
+/* button */
+#btn-translate {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    width: 20vw;
+    margin-top: 1rem;
+    background-color: ;
+}
+
+/* output box */
+h4 img {
+    width: 30px;
+    height: 40px;
+}
+
+#txt-output {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    width: 80%;
+    height: 100px;
+    padding: 1rem;
+    background-color: white;
+}
+
+/* footer */
+.footer {
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+.footer div{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.footer div p{
+    margin-bottom: 0;;
 }
